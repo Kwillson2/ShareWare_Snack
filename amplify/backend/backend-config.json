@@ -1,0 +1,28 @@
+{
+	"api": {
+		"sharewareCloudApi": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "dev api key",
+							"apiKeyExpirationDays": "40"
+						}
+					}
+				}
+			}
+		}
+	},
+	"auth": {
+		"sharewarecloud99ab2f2d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

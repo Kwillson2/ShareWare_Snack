@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-sharewarecloud-dev-164529-authRole",
+            "UnauthRoleArn": "arn:aws:iam::680105580164:role/amplify-sharewarecloud-dev-164529-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::680105580164:role/amplify-sharewarecloud-dev-164529-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-sharewarecloud-dev-164529-deployment",
+            "UnauthRoleName": "amplify-sharewarecloud-dev-164529-unauthRole",
+            "StackName": "amplify-sharewarecloud-dev-164529",
+            "StackId": "arn:aws:cloudformation:us-west-2:680105580164:stack/amplify-sharewarecloud-dev-164529/e7ba64f0-5828-11ea-be7d-0a21b227ca7e",
+            "AmplifyAppId": "d2lrentz32dkh2"
+        },
+        "categories": {
+            "auth": {
+                "sharewarecloud99ab2f2d": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"742622269598316\",\"client_secret\":\"32ff3861158a8896a69c2c30f1af619b\"}]"
+                }
+            }
+        }
+    }
+}
